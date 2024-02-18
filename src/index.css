@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto&family=Roboto+Serif:opsz,wght@8..144,300&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@600&family=Poppins:wght@300;400;500&family=Roboto&family=Roboto+Serif:opsz,wght@8..144,300&display=swap");
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;500&display=swap');
+
+  /* @font-face {
+    font-family: "nunito";   
+    src: local("nunito-sans"),
+      url("./assets/fonts/nunito-sans_5.0.8_cyrillic-200-italic.woff2") format("truetype");
+  } */
+  
+
+*,
+*::after *::before {
+  padding: 0;
+  margin: 0;
+}
+
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+.logo {
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn {
+  padding: 15px 30px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+.btn:focus,
+.btn:active {
+  outline: none;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.btn{
+  background-color: #fff;
+  color: #0E733A;
+}
+.btn.btn-white:hover {
+  background-color: #0E733A;
+  color: #fff;
+}
+
+
+
+.scroll-container {
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
